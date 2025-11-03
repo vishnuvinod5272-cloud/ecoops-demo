@@ -221,6 +221,18 @@
     }
   </style>
 </head>
+<button onclick="toggleTheme()">🌙 Toggle Theme</button>
+<script>
+  function toggleTheme() {
+    document.body.classList.toggle('dark');
+  }
+</script>
+<style>
+  .dark {
+    background-color: #1b1b1b;
+    color: #e8f5e9;
+  }
+</style>
 <body>
   <!-- Background Video -->
   <video autoplay muted loop id="bg-video">
