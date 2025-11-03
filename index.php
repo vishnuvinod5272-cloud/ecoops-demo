@@ -17,6 +17,7 @@
       font-family: "Poppins", sans-serif;
       color: #1b5e20;
       overflow-x: hidden;
+      background: #e8f5e9;
     }
 
     /* ===== Background Video ===== */
@@ -37,62 +38,75 @@
       background: rgba(46, 125, 50, 0.85);
       color: white;
       padding: 25px 0;
-      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
-      backdrop-filter: blur(6px);
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(8px);
       position: sticky;
       top: 0;
       z-index: 10;
     }
 
     header h1 {
-      margin: 0;
-      font-size: 42px;
+      margin-bottom: 12px;
+      font-size: 46px;
       letter-spacing: 1px;
       animation: glow 2s ease-in-out infinite alternate;
+      text-transform: uppercase;
     }
 
     nav {
-      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
     }
 
     nav a {
       text-decoration: none;
       color: white;
-      margin: 0 18px;
       font-weight: 600;
-      transition: color 0.3s, transform 0.3s;
+      transition: all 0.3s ease;
+      font-size: 17px;
+      padding: 6px 10px;
+      border-radius: 6px;
     }
 
     nav a:hover {
-      color: #a5d6a7;
+      background: rgba(255,255,255,0.15);
       transform: scale(1.1);
+      color: #a5d6a7;
+      box-shadow: 0 0 10px rgba(255,255,255,0.2);
     }
 
     /* ===== Hero Section ===== */
     .hero {
-      padding: 80px 20px;
+      padding: 90px 20px;
       color: #fff;
       background: rgba(27, 94, 32, 0.75);
-      margin: 60px auto;
-      border-radius: 20px;
+      margin: 70px auto;
+      border-radius: 25px;
       max-width: 950px;
       backdrop-filter: blur(5px);
-      box-shadow: 0 6px 25px rgba(0,0,0,0.4);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.4);
       animation: fadeUp 1.2s ease;
+      text-align: center;
     }
 
     .hero h2 {
-      font-size: 36px;
+      font-size: 38px;
       margin-bottom: 15px;
+      text-shadow: 0 0 12px #a5d6a7;
     }
 
     .hero p {
       font-size: 18px;
       color: #e8f5e9;
+      max-width: 800px;
+      margin: 0 auto;
     }
 
     .time {
-      margin-top: 15px;
+      margin-top: 20px;
       font-weight: bold;
       color: #c8e6c9;
       font-size: 16px;
@@ -147,6 +161,7 @@
       margin-right: auto;
       backdrop-filter: blur(5px);
       animation: fadeIn 1.2s ease;
+      text-align: center;
     }
 
     .cta h2 {
@@ -186,6 +201,7 @@
       font-size: 14px;
       box-shadow: 0 -2px 10px rgba(0,0,0,0.4);
       text-shadow: 0 0 5px #66bb6a;
+      text-align: center;
     }
 
     /* ===== Animations ===== */
@@ -203,7 +219,6 @@
       from { opacity: 0; transform: translateY(50px); }
       to { opacity: 1; transform: translateY(0); }
     }
-
   </style>
 </head>
 <body>
@@ -213,7 +228,7 @@
   </video>
 
   <header>
-    <h1>🌱 EcoOps</h1>
+    <h1>🌱☁️ EcoOps☁️ 🌱</h1>
     <nav>
       <a href="index.php">Home</a>
       <a href="about.html">About</a>
