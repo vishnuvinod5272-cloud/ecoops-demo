@@ -240,7 +240,7 @@
   </video>
 
   <header>
-    <h1>🌱☁️ EcoOps☁️ ☀️ 🌱</h1>
+    <h1>🌱☁️ EcoOps☁️ 🌱</h1>
     <nav>
       <a href="index.php">Home</a>
       <a href="about.html">About</a>
